@@ -8,3 +8,5 @@ echo "Today is " . date("l")     . "<br>";
 <?php
 echo "The time is " . date("h:i:sa");
 ?>
+
+header("Refresh:1");
