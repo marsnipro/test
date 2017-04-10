@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-<h2>PHP Form Validation Example</h2>
+<h2>PHP LED CONTROL</h2>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   <input type="submit" name="ledOn" value="LED ON">  
   <input type="submit" name="ledOff" value="LED OFF">  
