@@ -26,7 +26,7 @@ function test_input($data) {
 
 <h2>PHP Form Validation Example</h2>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-   Name: <input type="text" name="name" value="$name">
+   Name: <input type="text" name="name" value="">
   <input type="submit" name="submit" value="Submit">  
 </form>
 
