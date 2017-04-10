@@ -1,3 +1,4 @@
+bool ImagickDraw::point ( float $x , float $y )
 <?php
 function point($fillColor, $backgroundColor) {
 
